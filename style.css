@@ -102,6 +102,9 @@ header .nav-links li a:hover {
     padding: 50px 20px;
     text-align: center;
 }
+.teams span {
+    color: #ff6f00;
+}
 .teams h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -163,6 +166,66 @@ header .nav-links li a:hover {
 .schedule h3{
    margin-left: 20%; 
 }
+
+/* Schedule Section */
+.schedule-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.schedule-section h2 {
+    font-size: 2.5em;
+    color: #ff6f00; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.schedule-section p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 40px;
+}
+.schedule-section span{
+    color: #ff6f00;
+    font-weight: ;
+}
+
+.schedule-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.match-card {
+    background-color: #fff7e6; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.match-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.match-info h3 {
+    font-size: 1.5em;
+    color: #ff6f00;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.match-info p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #333;
+    line-height: 1.5;
+}
 /* Video Section */
 .video-section {
     padding: 60px 20px;
@@ -198,7 +261,7 @@ header .nav-links li a:hover {
 }
 
 .video-item {
-    flex: 1 1 45%; /* Two videos side-by-side */
+    flex: 1 1 45%; 
     text-align: center;
     margin: 10px;
     border: 3px solid #ff6f00; 
