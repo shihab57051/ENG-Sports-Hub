@@ -51,6 +51,9 @@ header .nav-links li {
     position: relative;
 }
 
+
+.indicator> a:after { content: ' ▾'; } 
+
 header .nav-links .dropdown {
     position: absolute;
     top: 100%; /* Position it below the parent link */
