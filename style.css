@@ -52,7 +52,6 @@ header .nav-links li {
 }
 
 
-.indicator> a:after { content: ' ▾'; } 
 
 header .nav-links .dropdown {
     position: absolute;
