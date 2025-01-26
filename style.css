@@ -88,7 +88,7 @@ header .nav-links .dropdown li a:hover {
 }
 
 header .nav-links li:hover .dropdown {
-    display: block; /* Show dropdown on hover */
+    display: flex; /* Show dropdown on hover */
 }
 
 
